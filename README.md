@@ -23,8 +23,8 @@ ___Before you execute the script you need to start the IP webcam server on your 
 To start the app, simply launch the script "BOS-Python".
 To start displaying the current airflow a reference image need to be recorded first.
 
-___PRESS c___ to record a new reference image. This can be done multiple times during runtime and is very useful while changing the setup. 
-___PRESS q___ to quit the app. 
+* ___PRESS c___ to record a new reference image. This can be done multiple times during runtime and is very useful while changing the setup. 
+* ___PRESS q___ to quit the app. 
 
 ## Experiment setup
 
@@ -40,7 +40,7 @@ Best results can be achieved if the layer that contains the flow you want to vis
 
 
 The experiment setup should look something like this:
-![alt text](https://www.dlr.de/as/en/Portaldata/5/Resources/images/abteilungen/abt_ev/artikel/BOS_en_img1.jpg)
+![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/experiment_setup.HEIC)
 
 ## Parameters & GUI 
 To detect the airflow the current frame of the video stream is compared to a reference image using the __absdiff__ form the cv2 package. Then the resulting difference image needs some post processing, so that a clear visualization can be presented for different setups. To achive that a GUI is implemented to easily adjust the parameters during runtime. 
@@ -53,7 +53,7 @@ To detect the airflow the current frame of the video stream is compared to a ref
 * __AUTOREFFERENCEINTERVALL__ sets how fast the next reference image shall be taken. (Useful when turbulent flow is present)
 * __AutoReferenceImage__ activates the automatic update of the reference image. 
 
-![alt text](https://www.dlr.de/as/en/Portaldata/5/Resources/images/abteilungen/abt_ev/artikel/BOS_en_img1.jpg)
+![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/ezgif.com-resize.gif)
 
 
 
