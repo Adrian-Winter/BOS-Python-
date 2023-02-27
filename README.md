@@ -1,12 +1,15 @@
 # BOS-Python
 ## A simple script that can visualize airflows! 💨 
 
-## What is BOS?
+EXAMPLE: Visualising the invisible airflow created by a candle.🔥 
+![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/app_in_action.gif)
+
+## What is BOS? 🧐
 This little tool lets you visualize currents by using the Background-oriented-schlieren-Technique or short BOS. BOS utilizes the phenomenon that if a local gas current is present, a local in density gradient can be found as well. Mediums with different densities distort light in a differently, therefore a pixel shift can be detected where a change in density is present. Notice that the change in density can have multiple causes such as a change in temperature and does not solely represent the flow of a gas.
 
 ![alt text](https://www.dlr.de/as/en/Portaldata/5/Resources/images/abteilungen/abt_ev/artikel/BOS_en_img1.jpg)
 
-## How to use this application? 
+## How to use this application? ⚙️
 
 ### In order to use this script you need:
 
@@ -26,7 +29,7 @@ To start displaying the current airflow a reference image need to be recorded fi
 * ___PRESS c___ to record a new reference image. This can be done multiple times during runtime and is very useful while changing the setup. 
 * ___PRESS q___ to quit the app. 
 
-## Experiment setup
+## Experiment setup 
 
 ### Background 
 You can use every static surface as a background as long as it has lots of detail and variety. I recommend using the random background pattern that I provided: https://github.com/Adrian-Winter/BOS-Python-/blob/main/random_Background.png
@@ -40,7 +43,7 @@ Best results can be achieved if the layer that contains the flow you want to vis
 
 
 The experiment setup should look something like this:
-![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/experiment_setup.HEIC)
+![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/experiment_setup.jpg)
 
 ## Parameters & GUI 
 To detect the airflow the current frame of the video stream is compared to a reference image using the __absdiff__ form the cv2 package. Then the resulting difference image needs some post processing, so that a clear visualization can be presented for different setups. To achive that a GUI is implemented to easily adjust the parameters during runtime. 
@@ -53,8 +56,12 @@ To detect the airflow the current frame of the video stream is compared to a ref
 * __AUTOREFFERENCEINTERVALL__ sets how fast the next reference image shall be taken. (Useful when turbulent flow is present)
 * __AutoReferenceImage__ activates the automatic update of the reference image. 
 
-![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/ezgif.com-resize.gif)
 
+## Feedback 
+* Please feel free to let me know if you have trouble getting the results you are looking for. 
+* Also what features could be added? 
+
+### Hope this little app made your project a little bit easier! ☺️
 
 
 
