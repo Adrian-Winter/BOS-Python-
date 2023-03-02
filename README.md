@@ -2,7 +2,7 @@
 ## A simple script that can visualize airflows! 💨 
 
 ### EXAMPLE: Visualising the invisible airflow created by a candle.🔥 
-(Wait a few seconds if nothing is displaed unterneath, sometimes the .gif takes a while to load...)
+(Wait a few seconds if no demo is shown below, sometimes the .gif takes a while to load...)
 ![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/app_in_action.gif)
 
 ## What is BOS? 🧐
