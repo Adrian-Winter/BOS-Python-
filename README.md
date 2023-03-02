@@ -3,7 +3,7 @@
 
 ### EXAMPLE: Visualising the invisible airflow created by a candle.🔥 
 (Wait a few seconds if no demo is shown below, sometimes the .gif takes a while to load...)
-![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/app_in_action_small_op.gif)
+![alt text](https://github.com/Adrian-Winter/BOS-Python-/blob/main/app_in_action_op.gif)
 
 ## What is BOS? 🧐
 This little tool lets you visualize currents by using the Background-oriented-schlieren-Technique or short BOS. BOS utilizes the phenomenon that if a local gas current is present, a local in density gradient can be found as well. Mediums with different densities distort light in a differently, therefore a pixel shift can be detected where a change in density is present. Notice that the change in density can have multiple causes such as a change in temperature and does not solely represent the flow of a gas.
